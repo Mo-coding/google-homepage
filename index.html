@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <style>
+         #searchbar-form{
+            display: flex;
+            justify-content: center;
+            height: 45px;
+            margin: 0 auto;
+            width: 580px;
+            border-radius: 24px;
+            border: 1px solid #dfe1e5;
+            background-image: url(https://cdn2.iconfinder.com/data/icons/smart-content-management-outline/52/search-512.png);
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: 16px 13px;
+            background-color: transparent;
+         }            
+
+         #searchbar {
+             display: flex;
+             width: 400px;
+             border: 0px hidden;
+             font-size: large;
+
+         }
+
+         #logo {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: auto;
+             padding-top: 200px;
+             height: 92px;
+             padding-bottom: 30px;
+         }
+
+         #navbar {
+            list-style-type: none;
+            margin: 15px 0px 0px 15px;
+            padding: 0;
+            position: fixed;
+            width: 100%;
+            display: flex;  
+        }
+
+        textarea:focus, input:focus {
+            outline:none;
+        }
+
+        #apps-img {
+            height: 25px;
+            position: relative;
+            bottom: 5px;
+
+        }
+
+        li {
+            display: inline;
+            padding-left: 7px;
+            padding-right: 7px;
+            font-family: arial, sans-serif;
+            font-size: 13px;
+            color: #222;
+            vertical-align: middle;
+        }     
+
+        #footer li{
+            font-size: 15px;
+        }
+
+
+        .push-right {
+            margin-left: auto;
+        }
+
+        .push-left {
+            margin-right: 30px;
+        }
+
+        #navbar-push-left {
+            margin-right: 50px;
+        }
+
+        .start-left {
+            margin-left: 20px;
+        }
+
+        #footer-top {
+            list-style-type: none;
+            margin: 15px 30px 0px 0px;
+            padding: 0;
+            width: 100%;
+            display: flex;
+            margin-top: auto;
+            position: fixed;
+            bottom: 40px;
+            height: 40px;
+        }
+
+        #footer-low{
+            list-style-type: none;
+            margin: 15px 0px 0px 0px;
+            padding: 0px;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            display: flex;
+            height: 40px;
+        }
+
+        .footer {
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            border-style: solid;
+            border-width: 1px 0px 0px 0px;
+            border-color: #e4e4e4;
+            left: 0px;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            height: 40px;
+        }
+
+        button {
+            color: #5F6368;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+            border: 1px solid #f2f2f2;
+            margin: 11px 4px;
+            padding: 0 16px;
+            height: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 27px;
+            min-width: 120px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="nav-header">
+        <ul id="navbar">
+            <li>About</li>
+            <li>Store</li>
+            <li class="push-right">Gmail</li>
+            <li>Images</li>
+            <li><img id="apps-img" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png"/></li>
+            <li id="navbar-push-left">Sign In</li>
+        </ul>
+    </div>
+
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
+    <form id="searchbar-form">
+        <label id="searchbar-label" for="searchbar"></label>
+        <input type="text" id="searchbar" name="searchbar"/> 
+    </form>
+
+    <div id="buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm feeling Lucky!</button>
+    </div>
+
+    <div id="footer">
+        <ul class="footer" id="footer-top">
+            <li class="start-left">Deutschland</li>
+        </ul>
+        <ul class="footer" id="footer-low">
+            <li class="start-left">Advertising</li>
+            <li>Business</li>
+            <li>How Search works</li>
+            <li class="push-right">Privacy</li>
+            <li>Terms</li>
+            <li class="push-left">Settings</li>
+        </ul>
+    </div>
+  
+</body>
+</html>

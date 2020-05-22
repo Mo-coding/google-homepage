@@ -1,0 +1,1 @@
+This is project for the Odinproject course. I will try to build the google homepage, frontend onlyThis is project for the Odinproject course. I will try to build the google homepage, frontend only. Once I'm finished I will know that I have fundamental html and css knowledge and that I'm motivated to go on. Let's go.
